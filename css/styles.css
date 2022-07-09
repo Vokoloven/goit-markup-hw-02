@@ -1,0 +1,220 @@
+:root {
+  --main-bcgrnd-color: #e5e5e5;
+  --main-font-color: #212121;
+  --button-color: #2196f3;
+  --add-font-color: #000000;
+  --paragraph-color: #757575;
+  --white-color: #ffffff;
+  --second-bcgrnd-color: #2f303a;
+  --third-bcgrnd-color: #f5f4fa;
+  --rgba-color: rgba(255, 255, 255, 0.6);
+}
+/* Глобальные стили в Body */
+body {
+  background-color: var(--main-bcgrnd-color);
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--main-font-color);
+}
+/* Отключение точки рядом в списках */
+.list {
+  list-style: none;
+}
+/* Скрываем заголовок которого нет на макете */
+.hiden-title {
+  display: none;
+}
+.header {
+  background-color: var(--white-color);
+}
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--add-font-colour);
+}
+.header-logo-web {
+  color: var(--button-color);
+}
+.header-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--button-color);
+}
+.header .studio,
+.header .portfolio {
+  color: var(--button-color);
+}
+.header-list .tel {
+  color: var(--paragraph-color);
+}
+.hero {
+  background-color: var(--second-bcgrnd-color);
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.hero-button {
+  background-color: var(--button-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+  color: var(--add-font-color);
+}
+.feature .feature-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature .feature-paragraph {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+.work .work-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--third-bcgrnd-color);
+}
+.team .team-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team .team-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team .team-line {
+  font-family: "Roboto";
+  font-style: normal;
+  background-color: var(--white-color);
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1635px;
+}
+.team .team-garagraph {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+.footer {
+  background-color: var(--second-bcgrnd-color);
+}
+.footer .footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.footer .footer-logo-web {
+  color: var(--button-color);
+}
+.footer .footer-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.footer .link {
+  color: var(--rgba-color);
+}
+.footer .footer-link:hover,
+.footer .footer-link:focus {
+  color: var(--button-color);
+}
+/* Стили для портфолио */
+.filter-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--third-bcgrnd-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--button-color);
+}
+.search .search-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.search .search-paragraph {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+.search-line {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+
+  background-color: var(--white-color);
+}
