@@ -40,8 +40,6 @@ body {
   color: var(--button-color);
 }
 .header-list {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -62,8 +60,6 @@ body {
   background-color: var(--second-bcgrnd-color);
 }
 .hero-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -74,8 +70,6 @@ body {
 }
 .hero-button {
   background-color: var(--button-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -91,8 +85,6 @@ body {
   color: var(--add-font-color);
 }
 .feature .feature-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -106,8 +98,6 @@ body {
   color: var(--paragraph-color);
 }
 .work .work-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -118,8 +108,6 @@ body {
   background-color: var(--third-bcgrnd-color);
 }
 .team .team-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -127,8 +115,6 @@ body {
   letter-spacing: 0.03em;
 }
 .team .team-list {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -136,8 +122,6 @@ body {
   letter-spacing: 0.03em;
 }
 .team .team-line {
-  font-family: "Roboto";
-  font-style: normal;
   background-color: var(--white-color);
   width: 270px;
   height: 368px;
@@ -167,8 +151,6 @@ body {
   color: var(--button-color);
 }
 .footer .footer-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -183,8 +165,6 @@ body {
 }
 /* Стили для портфолио */
 .filter-button {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -194,27 +174,4 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--button-color);
-}
-.search .search-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.search .search-paragraph {
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: var(--paragraph-color);
-}
-.search-line {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
-
-  background-color: var(--white-color);
 }
