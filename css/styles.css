@@ -60,7 +60,7 @@ body {
 .header .portfolio {
   color: var(--button-color);
 }
-.header-list .tel {
+.header-list .contact {
   color: var(--paragraph-color);
 }
 .hero {
