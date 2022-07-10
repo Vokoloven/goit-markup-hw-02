@@ -12,7 +12,6 @@
 /* Глобальные стили в Body */
 body {
   background-color: var(--main-bcgrnd-color);
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: var(--main-font-color);
 }
@@ -70,6 +69,7 @@ body {
 }
 .hero-button {
   background-color: var(--button-color);
+  font-family: "inherit";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -165,6 +165,7 @@ body {
 }
 /* Стили для портфолио */
 .filter-button {
+  font-family: "inherit";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
